@@ -1,0 +1,11 @@
+name: dicom-diffusion
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.26
+  - pydicom>=2.4
+  - scipy>=1.11
+  - pip:
+      - -e .
